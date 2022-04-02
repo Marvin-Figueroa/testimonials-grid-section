@@ -136,6 +136,11 @@ body {
 }
 
 @media screen and (max-width: 70em) {
+  body {
+    height: initial;
+    margin: 4rem auto;
+  }
+
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
